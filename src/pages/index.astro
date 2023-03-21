@@ -6,7 +6,15 @@ export const prerender = true;
 
 <Layout title="The Digital Garden of Andrew Weisbeck">
 	<main>
-		<h1><span class="text-gradient">Andrew's Digital Garden</span></h1>
+		<a href="/">
+			<h1
+				class="text-center mb-4 border-solid border-white border-2 py-2 px-4 rounded-md bg-slate-900 hover:bg-blue-900 hover:decoration-solid"
+			>
+				<span class="text-gradient text-4xl"
+					>Andrew's Digital Garden</span
+				>
+			</h1>
+		</a>
 		<p class="instructions">
 			<strong>
 				This digital garden is my internet space for cultivating ideas
@@ -62,7 +70,7 @@ export const prerender = true;
 
 <style>
 	:root {
-		--color-border: #fff;
+		--color-border: #1fe096;
 		--astro-gradient: linear-gradient(0deg, #52ad7e, #13e5ec);
 		--link-gradient: linear-gradient(
 			45deg,
@@ -148,6 +156,10 @@ export const prerender = true;
 		border-radius: 0.5rem;
 		background-position: 100%;
 		transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+	}
+
+	.link-card:hover {
+		background-color: #1ee17d;
 	}
 
 	.link-card > a {

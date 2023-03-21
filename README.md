@@ -1,16 +1,7 @@
-# Astro Starter Kit: Deno
+# Andrew's Digital Garden
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/deno)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/deno)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/deno/devcontainer.json)
-
-```
-npm create astro@latest -- --template deno
-```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/geauxweisbeck4/andrewsdigitalgarden-astro)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/geauxweisbeck4/andrewsdigitalgarden-astro)
 
 
 ## 🚀 Project Structure
@@ -53,3 +44,13 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## To Do 
+- [ ] Add SEO integration info on Index page + others
+- [ ] Add Alpine.js
+- [ ] Add Notes Catalog
+- [ ] Add Journal Section
+- [ ] Add Blog Section 
+- [ ] Add Published Content Section
+- [ ] Write about Digital Garden concepts
+- [ ] Create About Me Page

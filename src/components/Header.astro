@@ -3,12 +3,12 @@ const { title } = Astro.props;
 ---
 
 <header>
-    <div class="flex flex-col w-fit p-6 m-12">
-        <a href="/">
+    <div class="leading-7 mb-2 p-4 max-w-full justify-center">
+        <a class="text-center" href="/">
             <h1
-                class="text-center justify-around border-solid border-white border-2 py-2 px-4 rounded-md bg-slate-900 hover:bg-blue-900 hover:decoration-solid text-white text-5xl"
+                class="text-center justify-around border-solid border-white border-2 py-2 px-4 rounded-md bg-slate-900 hover:bg-blue-900 hover:decoration-solid text-white text-xl align-center"
             >
-                <span class="text-gradient text-7xl"
+                <span class="text-gradient text-xl"
                     >Andrew's Digital Garden -</span
                 >
                 <br />
@@ -21,7 +21,6 @@ const { title } = Astro.props;
             <div></div>
         </nav>
     </div>
-    
 </header>
 <style>
     :root {

@@ -1,0 +1,70 @@
+---
+const { title = "Digital Garden of Eden" } = Astro.props
+---
+
+<footer class="text-white bg-slate-900">
+<div class="grid grid-cols-4 gap-4 mx-4">
+    <div>
+        <h2 class="text-green-500 text-2xl mt-4">{ title }</h2>
+        <p>This theme was created to assist Digital Gardeners with getting started on their journey as quickly as possible. Please submit you site's link to me at this repostiory so I can add it to the wall of fame!</p>
+    </div>
+    <div>
+        <h2 class="text-uppercase mt-4">Directory</h2>
+        <ul class="list-unstyled">
+            <li>
+                <a class="text-teal-300 hover:text-fuchsia-500" href="/home">
+                    <i class="fas fa-home"></i>
+                    Home Page</a>
+            </li>
+            <li>
+                <a class="text-teal-300 hover:text-fuchsia-500" href="/about">
+                    <i class="fas fa-signature"></i>
+                    About</a>
+            </li>
+            <li>
+                <a class="text-teal-300 hover:text-fuchsia-500" href="/posts">
+                    <i class="fas fa-flag"></i>
+                    Blog Posts</a>
+            </li>
+            <li>
+                <a class="text-teal-300 hover:text-fuchsia-500" href="/feeds">
+                    <i class="fas fa-rss-square"></i>
+                    RSS Feeds</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h2 class="text-uppercase mt-4">Other Places</h2>
+        <ul class="list-unstyled">
+            <li>
+                <a class="text-teal-300 hover:text-fuchsia-500" href="https://github.com/geauxweisbeck4">
+                    <i class="fab fa-github"></i>
+                    GitHub</a>
+            </li>
+            <li>
+                <a class="text-teal-300 hover:text-fuchsia-500" href="https://twitter.com/geauxweisbeck4">
+                    <i class="fab fa-twitter"></i>
+                    Twitter</a>
+            </li>
+            <li>
+                <a class="text-teal-300 hover:text-fuchsia-500" href="/portfolio">
+                    <i class="fas fa-briefcase"></i>
+                    Portfolio</a>
+            </li>
+            <li>
+                <a class="text-teal-300 hover:text-fuchsia-500" href="mailto:andrew.weisbeck@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                    E-mail</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h2 class="text-uppercase mt-4">Thank You</h2>
+        <ul class="list-unstyled">
+            <li><a class="text-teal-300 hover:text-fuchsia-500" href="https://enjoyment-work.netlify.app/">Enjoyment of Work</a></li>
+            <li><a class="text-teal-300 hover:text-fuchsia-500" href="https://enjoyment-work.netlify.app/">GitHub Digital Gardeners</a></li>
+        </ul>
+    </div>
+</div>
+<p class="text-center">This was created by <a class="text-teal-300 hover:text-fuchsia-500" href="https://geauxweisbeck4.dev">GeauxWeisbeck4</a> 2023. MIT License.</p>
+</footer>

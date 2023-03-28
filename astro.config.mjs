@@ -1,12 +1,15 @@
 import { defineConfig } from "astro/config";
 import deno from "@astrojs/deno";
 import netlify from "@astrojs/netlify/edge-functions";
-
 import tailwind from "@astrojs/tailwind";
+import alpinejs from "@astrojs/alpinejs";
+import mdx from "@astrojs/mdx";
+
+import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
   output: "server",
   adapter: netlify(),
-  integrations: [tailwind()]
+  integrations: [tailwind(), alpinejs(), mdx(), svelte()]
 });

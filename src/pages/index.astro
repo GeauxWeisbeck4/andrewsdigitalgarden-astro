@@ -1,123 +1,313 @@
 ---
-import Layout from "../components/Layout.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 
 export const prerender = true;
 ---
 
-<Layout title="The Digital Garden of Andrew Weisbeck">
+<BaseLayout title="The Digital Garden of Andrew Weisbeck">
 	<main>
 		<div class="mb-8">
-			<h2 class="text-2xl text-green-500 font-semibold mb-2">Working in Public for feedback and accountability.</h2>
+			<h2 class="text-2xl text-green-500 font-semibold mb-2">
+				Working in Public for feedback and accountability.
+			</h2>
 			<p class="text-white">
-				I started my first digital garden when I heard about the idea a year or so ago - the only problem was I kept it to myself, defeating the purpose of the whole thing. Here is my new digital garden, in it's fullest form, redesigned and ready for the public.
+				I started my first digital garden when I heard about the idea a
+				year or so ago - the only problem was I kept it to myself,
+				defeating the purpose of the whole thing. Here is my new digital
+				garden, in it's fullest form, redesigned and ready for the
+				public.
 			</p>
 		</div>
 
 		<ul role="list" class="link-card-grid">
-			<li class="link-card animate-pulse hover:scale-125">
+			<li class="link-card animate-pulse hover:scale-110">
 				<a href="/notes">
 					<h2>Catalog of Notes<span>&rarr;</span></h2>
 					<p>
-						A catalog of my notes that utilize various features such as backlinks, roam style blocks, and reference foot notes.
+						A catalog of my notes that utilize various features such
+						as backlinks, roam style blocks, and reference foot
+						notes.
 					</p>
 				</a>
 			</li>
-			<li class="link-card animate-pulse hover:scale-125">
+			<li class="link-card animate-pulse hover:scale-110">
 				<a href="/journal">
 					<h2>Daily Journal<span>&rarr;</span></h2>
-					<p>A more simple section for daily writing that could possibly be turned into notes.</p>
+					<p>
+						A more simple section for daily writing that could
+						possibly be turned into notes.
+					</p>
 				</a>
 			</li>
-			<li class="link-card animate-pulse hover:scale-125">
+			<li class="link-card animate-pulse hover:scale-110">
 				<a href="/blog">
 					<h2>Blog<span>&rarr;</span></h2>
-					<p>My blog that takes streams of conscious ramblings and converts them into coherent, structured, and long-form content.</p>
+					<p>
+						My blog that takes streams of conscious ramblings and
+						converts them into coherent, structured, and long-form
+						content.
+					</p>
 				</a>
 			</li>
-			<li class="link-card animate-pulse hover:scale-125">
+			<li class="link-card animate-pulse hover:scale-110">
 				<a href="/digital-garden">
 					<h2>Digital Garden<span>&rarr;</span></h2>
 					<p>
-						The place where ideas (seedlings), are planted and cultivated into trees (notes), which then bear fruit for sharing (published content).
+						The place where ideas (seedlings), are planted and
+						cultivated into trees (notes), which then bear fruit for
+						sharing (published content).
 					</p>
 				</a>
 			</li>
 		</ul>
 		<div class="text-white text-lg mt-6">
 			<p>
-				I've been working on the layout of this website for a good amount of time and I couldn't quite figure what I really wanted it to look like. I found a theme called <a href="https://enjoymentofwork.netlify.app" class="font-semibold text-teal-300 hover:text-fuchsia-400">Enjoyment of Work</a> that I heavily borrowed from and was a great source to borrow from for the design.
+				I've been working on the layout of this website for a good
+				amount of time and I couldn't quite figure what I really wanted
+				it to look like. I found a theme called <a
+					href="https://enjoymentofwork.netlify.app"
+					class="font-semibold text-teal-300 hover:text-fuchsia-400"
+					>Enjoyment of Work</a
+				> that I heavily borrowed from and was a great source to borrow from
+				for the design.
 			</p>
 			<br />
 			<p>
-				If you too would like to use this layout for your digital garden, personal website, or whatever, please feel free to and share the link with me if you want me to include it on my list of websites using this template. It's an honor to have others use your work and consider it good enough to use as something they want to display their own work with.
+				If you too would like to use this layout for your digital
+				garden, personal website, or whatever, please feel free to and
+				share the link with me if you want me to include it on my list
+				of websites using this template. It's an honor to have others
+				use your work and consider it good enough to use as something
+				they want to display their own work with.
 			</p>
 			<h2 class="text-large my-4 text-green-500">
-				To get more information on this theme and how to use it, please check the following articles:
+				To get more information on this theme and how to use it, please
+				check the following articles:
 			</h2>
 			<ol class="mt-4 list-decimal ml-10">
-				<li class="m-2"><a class="text-teal-300 hover:text-fuchsia-400 font-semibold" href="/posts/introducing-the-digital-garden-of-eden"> Introducing: the Digital Garden of Eden</a></li>
-				<li class="m-2"><a class="text-teal-300 hover:text-fuchsia-400 font-semibold" href="/posts/example-page-taking-notes">Example Page: Taking Notes</a></li>
-				<li class="m-2"><a class="text-teal-300 hover:text-fuchsia-400 font-semibold" href="/posts/example-page-journal-entries">Example Page: Journal Entries</a></li>
-				<li class="m-2"><a class="text-teal-300 hover:text-fuchsia-400 font-semibold" href="/posts/example-page-blog-posts">Example Page: Blog Posts</a></li>
-				<li class="m-2"><a class="text-teal-300 hover:text-fuchsia-400 font-semibold" href="/posts/how-to-use-the-digital-garden-of-eden-theme">How to Use the Digital Garden of Eden Theme</a></li>
+				<li class="m-2">
+					<a
+						class="text-teal-300 hover:text-fuchsia-400 font-semibold"
+						href="/posts/introducing-the-digital-garden-of-eden"
+					>
+						Introducing: the Digital Garden of Eden</a
+					>
+				</li>
+				<li class="m-2">
+					<a
+						class="text-teal-300 hover:text-fuchsia-400 font-semibold"
+						href="/posts/example-page-taking-notes"
+						>Example Page: Taking Notes</a
+					>
+				</li>
+				<li class="m-2">
+					<a
+						class="text-teal-300 hover:text-fuchsia-400 font-semibold"
+						href="/posts/example-page-journal-entries"
+						>Example Page: Journal Entries</a
+					>
+				</li>
+				<li class="m-2">
+					<a
+						class="text-teal-300 hover:text-fuchsia-400 font-semibold"
+						href="/posts/example-page-blog-posts"
+						>Example Page: Blog Posts</a
+					>
+				</li>
+				<li class="m-2">
+					<a
+						class="text-teal-300 hover:text-fuchsia-400 font-semibold"
+						href="/posts/how-to-use-the-digital-garden-of-eden-theme"
+						>How to Use the Digital Garden of Eden Theme</a
+					>
+				</li>
 			</ol>
-			<h2 class="text-green-500 text-2xl font-bold my-4 text-center">About Digital Garden of Eden</h2>
+			<h2 class="text-green-500 text-2xl font-bold my-4 text-center">
+				About Digital Garden of Eden
+			</h2>
 			<p>
-				If you're reading this, you are using the first version of the Digital Garden of Eden theme. While there are many features in here that I wanted to include in this theme, it is still a work in progress, just like any project that I have/work on.
+				If you're reading this, you are using the first version of the
+				Digital Garden of Eden theme. While there are many features in
+				here that I wanted to include in this theme, it is still a work
+				in progress, just like any project that I have/work on.
 			</p>
 			<br />
 			<p>
-				The first version had to get created so I could start putting my garden to work and creating for the world to see. So obviously, there will be features that still need implemented down the road. I will add them to my Linear App and continue to deploy new versions. I have included list of things that majorly need to happen below, but you can also check out the full <a href="https://github.com/geauxweisbeck4/andrewsdigitalgarden-astro/roadmap">Roadmap here</a>:
+				The first version had to get created so I could start putting my
+				garden to work and creating for the world to see. So obviously,
+				there will be features that still need implemented down the
+				road. I will add them to my Linear App and continue to deploy
+				new versions. I have included list of things that majorly need
+				to happen below, but you can also check out the full <a
+					href="https://github.com/geauxweisbeck4/andrewsdigitalgarden-astro/roadmap"
+					>Roadmap here</a
+				>:
 			</p>
 			<ul class="mt-4 list-disc ml-10">
-				<li>Create <a class="text-teal-300 hover:text-fuchsia-500" href="https://contentful.com">Contentful CMS</a> content types after adding it to theme.</li>
-				<li>Integrate with awesome note taking tools like <a class="text-teal-300 hover:text-fuchsia-500" href="https://contentful.com">Obsidian</a>, <a class="text-teal-300 hover:text-fuchsia-500" href="https://logseq.com">Logseq</a> and <a class="text-teal-300 hover:text-fuchsia-500" href="https://dendron.com">Dendron</a>.</li>
-				<li>Add interactive editing to the browser so you can edit from anywhere.</li>
-				<li>Add a visualization and node networking graph to see relations and other connections between ideas.</li>
+				<li>
+					Create <a
+						class="text-teal-300 hover:text-fuchsia-500"
+						href="https://contentful.com">Contentful CMS</a
+					> content types after adding it to theme.
+				</li>
+				<li>
+					Integrate with awesome note taking tools like <a
+						class="text-teal-300 hover:text-fuchsia-500"
+						href="https://contentful.com">Obsidian</a
+					>, <a
+						class="text-teal-300 hover:text-fuchsia-500"
+						href="https://logseq.com">Logseq</a
+					> and <a
+						class="text-teal-300 hover:text-fuchsia-500"
+						href="https://dendron.com">Dendron</a
+					>.
+				</li>
+				<li>
+					Add interactive editing to the browser so you can edit from
+					anywhere.
+				</li>
+				<li>
+					Add a visualization and node networking graph to see
+					relations and other connections between ideas.
+				</li>
 			</ul>
-			<h2 class="text-2xl text-green-500 my-4">Digital Gardens: Philosophy and Overview</h2>
+			<h2 class="text-2xl text-green-500 my-4">
+				Digital Gardens: Philosophy and Overview
+			</h2>
 			<p>
-				While there isn't a concrete definition for digital gardens, I like to think of a digital garden as <em class="text-orange-200">a space in which one can expand their consciousness in public by creating and connecting ideas, not by worrying about what will become of them, but just by learning, creating, and growing with the intention of becoming a better human and understanding the world more.</em>
+				While there isn't a concrete definition for digital gardens, I
+				like to think of a digital garden as <em class="text-orange-200"
+					>a space in which one can expand their consciousness in
+					public by creating and connecting ideas, not by worrying
+					about what will become of them, but just by learning,
+					creating, and growing with the intention of becoming a
+					better human and understanding the world more.</em
+				>
 			</p>
 			<br />
 			<p>
-				Some people say that digital gardens are simply their own little piece of the internet - they are correct too. I think at the end of the day, the most important aspect of a digital garden is that it is public or shared with others. <a class="text-teal-300 hover:text-fuchsia-500" href="https://maggieappleton.com/garden-history">Maggie Appleton has one of the better writeups about the History and ethos of digital gardens, which can be read on this link</a>.
+				Some people say that digital gardens are simply their own little
+				piece of the internet - they are correct too. I think at the end
+				of the day, the most important aspect of a digital garden is
+				that it is public or shared with others. <a
+					class="text-teal-300 hover:text-fuchsia-500"
+					href="https://maggieappleton.com/garden-history"
+					>Maggie Appleton has one of the better writeups about the
+					History and ethos of digital gardens, which can be read on
+					this link</a
+				>.
 			</p>
 			<p class="mt-4">
-				You can also find <a class="text-teal-300 hover:text-fuchsia-500" href="https://github.com/MaggieAppleton/digital-gardeners">Maggie's GitHub Repository for Digital Gardeners here</a> and I also started a <a href="https://digitalgardens.quora.com/" class="text-teal-300 hover:text-fuchsia-500">Quora Page for Digital Gardeners here</a> for those of you especially who have questions.
+				You can also find <a
+					class="text-teal-300 hover:text-fuchsia-500"
+					href="https://github.com/MaggieAppleton/digital-gardeners"
+					>Maggie's GitHub Repository for Digital Gardeners here</a
+				> and I also started a <a
+					href="https://digitalgardens.quora.com/"
+					class="text-teal-300 hover:text-fuchsia-500"
+					>Quora Page for Digital Gardeners here</a
+				> for those of you especially who have questions.
 			</p>
 			<h2 class="text-2xl text-green-500 my-4">Terminology</h2>
 			<ul class="my-4 list-disc ml-10">
-				<li><a class="text-teal-300 hover:text-fuchsia-500" href="/digital-garden/seedlings">Seedlings:</a> A new idea that is being examined, studied, learned, practiced, ordered, or shared in your garden.</li>
-				<li><a class="text-teal-300 hover:text-fuchsia-500" href="/digital-garden/seedlings">Trees:</a> A seedling that has been cultivated and blossomed into a beautiful, structured thought chain of notes, short posts, tweets, toots, or any other kind of microblogging/note taking activity.</li>
-				<li><a class="text-teal-300 hover:text-fuchsia-500" href="/digital-garden/seedlings">Fruits:</a> The fruit of the tree is the content that is created as a result of this non-linear way of organizig projects, learning, and ideas. YouTube posts, blog posts, eBooks, websites, and any published content that is enjoyed and shared amongst your community.</li>
+				<li>
+					<a
+						class="text-teal-300 hover:text-fuchsia-500"
+						href="/digital-garden/seedlings">Seedlings:</a
+					> A new idea that is being examined, studied, learned, practiced,
+					ordered, or shared in your garden.
+				</li>
+				<li>
+					<a
+						class="text-teal-300 hover:text-fuchsia-500"
+						href="/digital-garden/seedlings">Trees:</a
+					> A seedling that has been cultivated and blossomed into a beautiful,
+					structured thought chain of notes, short posts, tweets, toots,
+					or any other kind of microblogging/note taking activity.
+				</li>
+				<li>
+					<a
+						class="text-teal-300 hover:text-fuchsia-500"
+						href="/digital-garden/seedlings">Fruits:</a
+					> The fruit of the tree is the content that is created as a result
+					of this non-linear way of organizig projects, learning, and ideas.
+					YouTube posts, blog posts, eBooks, websites, and any published
+					content that is enjoyed and shared amongst your community.
+				</li>
 			</ul>
-			<h2 class="text-2xl text-green-500 my-4">Digital Garden Philosophy</h2>
+			<h2 class="text-2xl text-green-500 my-4">
+				Digital Garden Philosophy
+			</h2>
 			<p>
-				Philosophies may vary amongst us digital gardeners, but we do all share the same common element among us and that is we are looking for a greater way to change the neuroplasticity of our brain and mold it into certain types of thinking - certain thinking patterns that is. These patterns are especially helpful when you are trying to solve a difficult problem, escape the boredom of life, or create something beautiful to share with the world. Us gardeners are seeking a higher consciousness - a translucent future in which we transcend into heavens of thought where all ideas are examined in the public eye, but never judged or scoffed at.
+				Philosophies may vary amongst us digital gardeners, but we do
+				all share the same common element among us and that is we are
+				looking for a greater way to change the neuroplasticity of our
+				brain and mold it into certain types of thinking - certain
+				thinking patterns that is. These patterns are especially helpful
+				when you are trying to solve a difficult problem, escape the
+				boredom of life, or create something beautiful to share with the
+				world. Us gardeners are seeking a higher consciousness - a
+				translucent future in which we transcend into heavens of thought
+				where all ideas are examined in the public eye, but never judged
+				or scoffed at.
 			</p>
 			<p class="mt-4">
-				We live in a time where there is information that is full of lies and there are too many people in today's day in age that believe things like "getting a vaccine means that Bill Gates is trying to control my mind". Our society is sick with a wicked ignorance that threatens to cast us all down into a hellish cauldron of stupidity, unnecessary death, and destruction of the most beautiful rock for the next 4 trillion miles (or more). We must expand our thinking, share it with others compassionately, and seek resolutions to the grave danger of total extinction of all living on planet earth.
+				We live in a time where there is information that is full of
+				lies and there are too many people in today's day in age that
+				believe things like "getting a vaccine means that Bill Gates is
+				trying to control my mind". Our society is sick with a wicked
+				ignorance that threatens to cast us all down into a hellish
+				cauldron of stupidity, unnecessary death, and destruction of the
+				most beautiful rock for the next 4 trillion miles (or more). We
+				must expand our thinking, share it with others compassionately,
+				and seek resolutions to the grave danger of total extinction of
+				all living on planet earth.
 			</p>
-			<p class="mt-4">Digital gardens are supposed solve these two problems:</p>
+			<p class="mt-4">
+				Digital gardens are supposed solve these two problems:
+			</p>
 			<ol class="my-4 list-decimal ml-10">
-				<li>Our ability to COMMUNICATE and SHARE on the internet in novel, positive ways.</li>
-				<li>Our ability to COMPRHEND and SYNTHESIZE information with emphasis on CREATIVITY rather than CONSUMPTION.</li>
+				<li>
+					Our ability to COMMUNICATE and SHARE on the internet in
+					novel, positive ways.
+				</li>
+				<li>
+					Our ability to COMPRHEND and SYNTHESIZE information with
+					emphasis on CREATIVITY rather than CONSUMPTION.
+				</li>
 			</ol>
-			<p>Three three rules to go from a collector to a creator are these:</p>
+			<p>
+				Three three rules to go from a collector to a creator are these:
+			</p>
 			<ul class="my-4 list-disc ml-10">
-				<li><strong>Collect.</strong> Note-taking, raw snippets, Kindle highlights + personal commentary.</li>
-				<li><strong>Connect.</strong> Link to previous notes. Do not keep orphan notes.</li>
+				<li>
+					<strong>Collect.</strong> Note-taking, raw snippets, Kindle highlights
+					+ personal commentary.
+				</li>
+				<li>
+					<strong>Connect.</strong> Link to previous notes. Do not keep
+					orphan notes.
+				</li>
 				<li><strong>Create.</strong> Write original article.</li>
 			</ul>
 			<h2 class="text-2xl text-green-500 my-4">Credit/Attribution</h2>
-			<p>So credit is due for this project - I definitely didn't create this all by myself. As I mentioned <a class="text-teal-300 hover:text-fuchsia-500" href="https://enjoyment-work.netlify.app/">Enjoyment of Work</a> was my main source of inspiration for this design. The countless other <a class="text-teal-300 hover:text-fuchsia-500" href="https://github.com/MaggieAppleton/digital-gardeners">Digital Gardeners</a> have helped me learn how to cultivate and nurture my own garden and theme for me to share with the whole world!
+			<p>
+				So credit is due for this project - I definitely didn't create
+				this all by myself. As I mentioned <a
+					class="text-teal-300 hover:text-fuchsia-500"
+					href="https://enjoyment-work.netlify.app/"
+					>Enjoyment of Work</a
+				> was my main source of inspiration for this design. The countless
+				other <a
+					class="text-teal-300 hover:text-fuchsia-500"
+					href="https://github.com/MaggieAppleton/digital-gardeners"
+					>Digital Gardeners</a
+				> have helped me learn how to cultivate and nurture my own garden
+				and theme for me to share with the whole world!
 			</p>
 		</div>
-
-
 	</main>
-</Layout>
+</BaseLayout>
 
 <style>
 	:root {

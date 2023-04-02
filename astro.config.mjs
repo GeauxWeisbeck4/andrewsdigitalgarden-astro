@@ -5,11 +5,9 @@ import tailwind from "@astrojs/tailwind";
 import alpinejs from "@astrojs/alpinejs";
 import mdx from "@astrojs/mdx";
 
-import svelte from "@astrojs/svelte";
-
 // https://astro.build/config
 export default defineConfig({
   output: "server",
   adapter: netlify(),
-  integrations: [tailwind(), alpinejs(), mdx(), svelte()]
+  integrations: [tailwind(), alpinejs(), mdx()],
 });

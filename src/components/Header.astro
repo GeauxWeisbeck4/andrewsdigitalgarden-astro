@@ -4,38 +4,64 @@ const { title } = Astro.props;
 
 <header class="flex flex-col">
     <div class="flex flex-col w-100 mt-6">
-
-            <div class="mb-2 text-center bg-gray-900 hover:bg-blue-900 mx-60">
-                <a class="content-center" href="/">
-                    <h1 class="text-gradient hover:text-blue-900 w-full text-center border-solid border-4 border-white p-2">Andrew's Digital Garden</h1>
-                </a>
-            </div>
-            <div class="mt-4">
-                <p class="instructions mx-60 text-white">
-                    Andrew Weisbeck
-                    <br />
-                    <strong>
-                        This digital garden is my internet space for cultivating ideas
-                        and working in public to stimulate creative growth and produce
-                        quality content and applications.</strong
-                    >
-                </p>
-            </div>
-
-
-
+        <div class="mb-2 text-center bg-gray-900 hover:bg-blue-900 mx-60">
+            <a class="content-center" href="/">
+                <h1
+                    class="text-gradient hover:text-blue-900 w-full text-center border-solid border-4 border-white p-2"
+                >
+                    Andrew's Digital Garden
+                </h1>
+            </a>
+        </div>
+        <div class="mt-4">
+            <p class="instructions mx-60 text-white">
+                Andrew Weisbeck
+                <br />
+                <strong>
+                    This digital garden is my internet space for cultivating
+                    ideas and working in public to stimulate creative growth and
+                    produce quality content and applications.</strong
+                >
+            </p>
+        </div>
 
         <nav class="flex justify-center mb-4">
-            <a class="px-4 py-2 border-r-2 border-white border-solid text-white hover:text-teal-300 font-semibold" href="/about">About</a>
-            <a class="px-4 py-2 border-r-2 border-white border-solid text-white hover:text-teal-300 font-semibold" href="/tags">Tags</a>
-            <a class="px-4 py-2 border-r-2 border-white border-solid text-white hover:text-teal-300 font-semibold" href="/categories">Categories</a>
-            <a class="px-4 py-2 border-r-2 border-white border-solid text-white hover:text-teal-300 font-semibold" href="/blog">Blog</a>
-            <a class="px-4 py-2 border-r-2 border-white border-solid text-white hover:text-teal-300 font-semibold" href="/rss">RSS</a>
-            <a class="px-4 py-2 border-r-2 border-white border-solid text-white hover:text-teal-300 font-semibold" href="/donate">Donate</a>
+            <a
+                class="px-4 py-2 border-r-2 border-white border-solid text-white hover:text-teal-300 font-semibold"
+                href="/about">About</a
+            >
+            <a
+                class="px-4 py-2 border-r-2 border-white border-solid text-white hover:text-teal-300 font-semibold"
+                href="/tags">Tags</a
+            >
+            <a
+                class="px-4 py-2 border-r-2 border-white border-solid text-white hover:text-teal-300 font-semibold"
+                href="/categories">Categories</a
+            >
+            <a
+                class="px-4 py-2 border-r-2 border-white border-solid text-white hover:text-teal-300 font-semibold"
+                href="/blog">Blog</a
+            >
+            <a
+                class="px-4 py-2 border-r-2 border-white border-solid text-white hover:text-teal-300 font-semibold"
+                href="/rss">RSS</a
+            >
+            <a
+                class="px-4 py-2 border-r-2 border-white border-solid text-white hover:text-teal-300 font-semibold"
+                href="/donate">Donate</a
+            >
         </nav>
-        <input class="mt-2 mx-60"></input>
+        <div class="mt-2 mx-60">
+            <input
+                aria-label="Search articles"
+                type="text"
+                onChange={(e) => setSearchValue(e.target.value)}
+                placeholder="search articles"
+                class="block w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-900 dark:bg-gray-800 dark:text-gray-100"
+            />
+        </div>
     </div>
-        </header>
+</header>
 <style>
     :root {
         --color-border: #1fe096;

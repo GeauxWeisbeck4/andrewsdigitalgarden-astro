@@ -96,7 +96,16 @@ declare module 'astro:content' {
 	>;
 
 	const entryMap: {
-		"notes": {
+		"journal": {
+"03-april-23.mdx": {
+  id: "03-april-23.mdx",
+  slug: "03-april-23",
+  body: string,
+  collection: "journal",
+  data: any
+} & { render(): Render[".mdx"] },
+},
+"notes": {
 "note-one.mdx": {
   id: "note-one.mdx",
   slug: "note-one",
